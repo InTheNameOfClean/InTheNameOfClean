@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In the Name of Clean LLC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #004d00;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #e0e0d1;
+            padding: 10px;
+        }
+        nav a {
+            color: #004d00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .box {
+            background-color: #fff;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex: 1 1 calc(30% - 40px);
+            min-width: 250px;
+        }
+        footer {
+            background-color: #004d00;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input, textarea {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #004d00;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #003300;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>In the Name of Clean LLC</h1>
+        <p>Project Manager: Brandy Lolakis</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a href="#newsletter">Newsletter</a>
+    </nav>
+    <section id="about">
+        <h2>About Our Company</h2>
+        <div class="content">
+            <div class="box">
+                <h3>Who We Are</h3>
+                <p>In the Name of Clean LLC is dedicated to providing top-notch cleaning services across various sectors including post-construction, residential, commercial, federal, and state contracting. We are also expanding our expertise into building management.</p>
+            </div>
+            <div class="box">
+                <h3>Our Mission</h3>
+                <p>Our mission is to deliver exceptional cleaning and management services to our clients, ensuring their spaces are spotless and well-maintained. We strive to exceed expectations and build long-lasting relationships with our customers.</p>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="content">
+            <div class="box">
+                <h3>Post-Construction Cleaning</h3>
+                <p>We provide comprehensive cleaning services to ensure newly constructed or renovated buildings are immaculate and ready for use.</p>
+            </div>
+            <div class="box">
+                <h3>Residential Cleaning</h3>
+                <p>Our team is experienced in maintaining clean, comfortable homes for our clients, tailored to their specific needs and schedules.</p>
+            </div>
+            <div class="box">
+                <h3>Commercial Cleaning</h3>
+                <p>We offer professional cleaning services for offices, retail spaces, and other commercial properties, ensuring a clean and healthy environment for employees and customers.</p>
+            </div>
+            <div class="box">
+                <h3>Federal & State Contracting</h3>
+                <p>We are equipped to handle large-scale cleaning projects for federal and state buildings, adhering to strict standards and regulations.</p>
+            </div>
+            <div class="box">
+                <h3>Building Management</h3>
+                <p>Our new building management services ensure that all aspects of property maintenance and operations are handled efficiently and effectively.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="mailto:inthenameofclean@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p>Email: inthenameofclean@gmail.com</p>
+        <p>Phone: 330-519-3851</p>
+    </section>
+    <section id="newsletter">
+        <h2>Subscribe to our Newsletter</h2>
+        <form action="mailto:inthenameofclean@gmail.com" method="post" enctype="text/plain">
+            <input type="email" name="email" placeholder="Your Email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 In the Name of Clean LLC. All rights reserved.</p>
+    </footer>
+</body>
+</html>
